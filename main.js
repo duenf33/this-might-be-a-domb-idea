@@ -19,8 +19,8 @@ const imgTwo = document.querySelector('#img-2');
 imgTwo.src = 'https://media.giphy.com/media/H76mLBIcNBho4/giphy.gif'
 imgTwo.style.height = '300px'
 
-var node = document.createElement('LI');
-var textnode = document.createTextNode('Won\'t get fooled again.');
+const node = document.createElement('LI');
+const textnode = document.createTextNode('Won\'t get fooled again.');
 node.appendChild(textnode);
 document.querySelector('ul').appendChild(node);
 
